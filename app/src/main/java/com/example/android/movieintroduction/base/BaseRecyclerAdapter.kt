@@ -41,7 +41,6 @@ abstract class BaseRecyclerAdapter<Item, VB : ViewDataBinding>(
 
     protected abstract fun getLayoutRes(viewType: Int): Int
 
-
 }
 
 open class BaseViewHolder<VB : ViewDataBinding>(
